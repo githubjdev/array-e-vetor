@@ -18,7 +18,26 @@ public class Ex9 {
 
 		double media = total / notas.length;
 
-		System.out.println("Média = " + media);
+		System.out.println("Mï¿½dia = " + media);
+		
+		int contador = 0;
+		for (int n : notas) {
+			if (n > 50) {
+				contador ++;
+			}
+		}
+		
+		System.out.println("Nota maior que 50: " + contador);
+		
+		boolean encontrado = false;
+		for (int n : notas) {
+			if (n == 50) {
+				encontrado = true;
+				break;
+			}
+		}
+		
+		System.out.println("Valor 50 encontrado? " + encontrado);
 
 	}
 
