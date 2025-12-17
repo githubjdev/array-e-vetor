@@ -12,7 +12,7 @@ public class AlunoMain {
 
 		System.out.println("Soma das notas: " + aluno.somaNota());
 
-		System.out.println(aluno + " Tirou a media de " + aluno.mediaNota());
+		System.out.println(aluno.getNome() + " Tirou a media de " + aluno.mediaNota());
 
 	}
 

@@ -54,7 +54,6 @@ public class Aluno {
 	}
 
 	public double mediaNota() {
-
 		return somaNota() / getNotas().length;
 	}
 
